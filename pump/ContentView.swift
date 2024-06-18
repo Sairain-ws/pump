@@ -77,7 +77,7 @@ struct ContentView: View {
                 
                 Text("我已阅读并同意").font(Font.custom("Arial", size: 12)).lineLimit(1)
                 Button(action: {
-                    print("打开免责声明");
+                    print("打开免责声明666");
                 }){
                     Text("《用户协议与免责声明》")
                         .font(Font.custom("Arial", size: 12)).lineLimit(1)
